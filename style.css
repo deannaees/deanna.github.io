@@ -1,0 +1,76 @@
+a:link{
+    color: rgb(86, 138, 190);
+}
+a:hover{
+    color: light rgb(195, 116, 227);
+    font-size:1.50em;
+}
+a:active{
+    color:hsl(240, 100%, 58%);
+}
+a:visited{
+    color: rgb(158, 81, 81);
+}
+body{
+    background-color: light rgb(195, 116, 227);
+}
+h1{
+    color: rgb(14, 111, 231);
+    text-align:center;
+}
+h2{
+    color: rgb(14, 111, 231);
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+h3{
+    color: rgb(79, 139, 178);
+    text-align:center;
+}
+#box1{
+    width: 100px;
+    height: 75px;
+    background: rgb(130, 211, 210);
+    font-size: 225;
+    text-align: center;
+    animation: slide;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+}
+@keyframes slide{
+    from{margin-left: 70%;}
+    to{margin-left: 40%;}
+}
+#photo1{
+    float: right;
+    margin: 10px;
+    border: 5px solid #507dc6;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+}
+#photo2{
+    float: left;
+    margin: 10px;
+    border: 5px solid #507dc6;
+    border-radius: 4px;
+    width: 90px;
+    height: auto;
+}
+#photo3{
+    float: left;
+    margin: 10px;
+    border: 5px solid #507dc6;
+    border-radius: 4px;
+    width: 200px;
+    height: auto;
+}
+
+@media(min-width: 600px){
+    p{
+        font-size: 1.00rem;
+        line-height: 1.25;
+    }
+}
